@@ -1,0 +1,22 @@
+{
+  "name": "passport-authentication",
+  "version": "1.0.0",
+  "description": "The authentication App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js -e js,hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nishan Kadel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
